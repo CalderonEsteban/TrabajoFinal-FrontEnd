@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./css/estilado.css">
+</head>
+<body>
+    <header class="header">
+
+        <nav class="barraNavegacion">
+            <a href="#" class="Logo">CacMovies</a>
+
+            <ul class="listaNavegacion">
+                <li class="listaItems"><a class="linkNavegacion" href="#anclaTendencias">Tendencias</a></li>
+                <li class="listaItems"><a class="linkNavegacion" href="paginas/registro.html">Registrarse</a></li>
+                <li class="listaItems"><a class="linkNavegacion" id="linkIniciarSesion" href="paginas/inicioSesion.html">Iniciar Sesión</a></li>
+            </ul>
+
+        </nav>
+
+
+    </header>
+
+    <main class="mainPrincipal" id="main">
+        <section class="sectionTitulo">
+
+            <div class="contenedor titulo">
+                <h1 id="tituloPrincipal">Peliculas y series ilimitadas <br> en un solo lugar</h1>
+                <h2 id="subtitulo">Disfrutá cuando quieras <br>cancela en cualquier momento</h2>
+                <a id="botonRegistrarse" href="paginas/registro.html">Registrarse</a>
+
+            </div>
+        </section>
+
+        <section class="sectionBuscador">
+            <h2 id="tituloBuscador">¿Que estás buscando para ver?</h2>
+            <form id="formBuscador">
+                <input id="buscador" type="text" placeholder="Buscar...">
+                <input id="botonBuscador" type="submit" value="Buscar">
+            </form>
+        </section>
+
+        <hr id="anclaTendencias">
+
+        <section class="sectionTendencias" >
+            
+            <h3 id="tituloTendencia">Las Tendencias de hoy</h3>
+
+            <div  class="galeriaTendencias">
+
+                
+            </div>
+            
+            <button class="boton anterior">Anterior</button>  
+            <button class="boton siguiente">Siguiente</button>
+        </section >
+
+        <hr>
+       
+
+        <section class="peliculasAclamadas">
+            <h3 class="tituloAclamadas" >Las mas aclamadas</h3>
+
+
+            <div class="galeriaAclamadas">
+
+               
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer class="footer">
+        <ul class="listaFooter">
+            <li class="listNavFooter" ><a class="linkNavFooter" href="">Termimos y concidiciones</a></li>
+            <li class="listNavFooter" ><a class="linkNavFooter" href="">Pregintas frecuentes</a></li>
+            <li class="listNavFooter" ><a class="linkNavFooter" href="">Ayuda</a> </li>
+            <li class="listNavFooter" ><a class="linkNavFooter" id="linkAdministrador" href="">Administrador peliculas</a></li>
+        </ul>
+
+        <a class="flechaArriba" href="#main">
+            <img src="" alt="arriba">
+        </a>
+    </footer>
+
+    <script src="js/index.js"></script>
+
+
+</body>
+</html> 
+
