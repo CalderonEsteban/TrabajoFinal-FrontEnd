@@ -527,7 +527,7 @@ body{
     .mainFormularios{
         .sectionFormularios{
             background-color: rgb(42, 42, 42);
-            width: 30%;
+            width: 500px;
             margin: 0 auto;
             border-radius: 5px;
             padding: 40px 20px;
@@ -598,6 +598,61 @@ body{
         }
     }
  }
+
+ @media (max-width: 500px) {
+    .bodyFormularios{
+        .headerFormularios{
+            padding:20px;
+            .logoFormularios{
+                font-size: 1rem;
+            }
+        }
+
+        .mainFormularios{
+            .sectionFormularios{
+                width: 95%;
+                padding: 10px 10px;
+                .tituloRegistrarse{
+                    font-size: 2rem;
+                }
+                formFormulario{
+                width: 100%;
+                
+                text-align: center;
+               
+                .inputFormulario:not(.check,.boton),select{
+                    width: 80%;
+                    height: 35px;
+                    font-size: 1rem;
+                }
+                .terminos{
+                    width: 80%;
+                    margin:0 auto;
+                    font-size: 0.7rem;
+                }
+                .botonFormularios{
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+                    width: 70%;
+                    padding: 0.8rem 0.8rem;
+                    font-size: 0.8rem;
+                }
+                .ayuda{
+                    text-align: left;
+                    font-size: 0.8rem;
+                }
+               }
+               
+            }
+        }
+    }
+
+}
+
+
+
+
+ 
  .mainDetalle{
     .sectionDetalle{
         padding-top: 50px;
